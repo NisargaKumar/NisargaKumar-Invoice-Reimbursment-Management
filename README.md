@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📄 Invoice Reimbursement System
 
 ## Project Overview
@@ -130,8 +129,3 @@ Example from analysis prompt:
 
 ---
 
-
-=======
-# Invoice-Reimbursement-System
-Invoice Reimbursement System
->>>>>>> bccff2a5bf333d8ab6509b8f4b2cf5c91e25ca38
