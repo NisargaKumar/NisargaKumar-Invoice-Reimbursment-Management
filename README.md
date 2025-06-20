@@ -128,4 +128,9 @@ Example from analysis prompt:
 - **Solution**: Stripped out references and irrelevant fields in display logic
 
 ---
+## Demo Video
+
+For a walkthrough of the Invoice Reimbursement System, check out the demo below:
+
+[Watch the demo video](https://www.tella.tv/video/nisargas-video-31hs)
 
