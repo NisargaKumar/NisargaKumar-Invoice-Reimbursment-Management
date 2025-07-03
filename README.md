@@ -77,7 +77,7 @@ The Invoice Reimbursement System is built with a modular architecture that handl
   - `/chatbot/query`: Handles natural language queries
 
 ### 2. Invoice & Policy Extraction
-- Library: `PyMuPDF` (`fitz`)
+- Library: `pdfplumber`
 - Extracted: Invoice content, employee name, date (from content or filename)
 
 ### 3. LLM-Based Invoice Analysis
@@ -119,7 +119,7 @@ Example from analysis prompt:
 ## Challenges & Solutions
 
 **Challenge**: Inconsistent text extraction from varied invoice formats
-- **Solution**: Used `PyMuPDF` for better OCR compatibility and fallback mechanisms
+- **Solution**: Used `pdfplumber` for better OCR compatibility and fallback mechanisms
 
 **Challenge**: LLM sometimes returns invalid or vague JSON
 - **Solution**: Strict JSON parsing + fallback error handling logic
